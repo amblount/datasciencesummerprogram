@@ -55,5 +55,19 @@ the winning streak they were on could be attributed to the technical depth of th
 Even with all of this information I don't feel comfotable enough yet to create any model or really analyze this data. We could certainly visualize this data so that it is easier to interpret. We will spend the day working on that and come back tomorrow with 
 more information about how this could be useful to create a better hypothesis, or figure out a few more questions we could ask of our data.
 
+The [basketball wikipedia](https://en.wikipedia.org/wiki/Basketball#Positions) page seems to be very useful when trying to understand a bit more about the game. I was even able to find more specific information about the different positions:
+
+- Point guard (often called the "1") : usually the fastest player on the team, organizes the team's offense by controlling the ball and making sure that it gets to the right player at the right time.
+
+- Shooting guard (the "2") : creates a high volume of shots on offense, mainly long-ranged; and guards the opponent's best perimeter player on defense.
+
+- Small forward (the "3") : often primarily responsible for scoring points via cuts to the basket and dribble penetration; on defense seeks rebounds and steals, but sometimes plays more actively.
+
+- Power forward (the "4"): plays offensively often with their back to the basket; on defense, plays under the basket (in a zone defense) or against the opposing power forward (in man-to-man defense).
+
+- Center (the "5"): uses height and size to score (on offense), to protect the basket closely (on defense), or to rebound.
+
+And there is an even more descriptive position page on the site that breaks down the positions in more depth. [Basketball Positions](https://en.wikipedia.org/wiki/Basketball_positions)
+
 
 
