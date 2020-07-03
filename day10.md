@@ -8,21 +8,21 @@ his stats went down the team started winning."
 Data:
 
 Chris Mullen
-https://www.basketball-reference.com/players/m/mullich01.html
-https://www.basketball-reference.com/players/m/mullich01/gamelog/1989/
-https://www.basketball-reference.com/players/m/mullich01/gamelog/1990/
-https://www.basketball-reference.com/players/m/mullich01/gamelog/1991/
+- https://www.basketball-reference.com/players/m/mullich01.html
+- https://www.basketball-reference.com/players/m/mullich01/gamelog/1989/
+- https://www.basketball-reference.com/players/m/mullich01/gamelog/1990/
+- https://www.basketball-reference.com/players/m/mullich01/gamelog/1991/
 
 Tim Hardaway 
-https://www.basketball-reference.com/players/h/hardati01.html
-https://www.basketball-reference.com/players/h/hardati01/gamelog/1990/
-https://www.basketball-reference.com/players/h/hardati01/gamelog/1991/
+- https://www.basketball-reference.com/players/h/hardati01.html
+- https://www.basketball-reference.com/players/h/hardati01/gamelog/1990/
+- https://www.basketball-reference.com/players/h/hardati01/gamelog/1991/
 
 Mitch Richmond
-https://www.basketball-reference.com/players/r/richmmi01.html
-https://www.basketball-reference.com/players/r/richmmi01/gamelog/1989/
-https://www.basketball-reference.com/players/r/richmmi01/gamelog/1990/
-https://www.basketball-reference.com/players/r/richmmi01/gamelog/1991/
+- https://www.basketball-reference.com/players/r/richmmi01.html
+- https://www.basketball-reference.com/players/r/richmmi01/gamelog/1989/
+- https://www.basketball-reference.com/players/r/richmmi01/gamelog/1990/
+- https://www.basketball-reference.com/players/r/richmmi01/gamelog/1991/
 
 Assumptions:
 
