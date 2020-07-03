@@ -26,18 +26,18 @@ Mitch Richmond
 
 Assumptions:
 
-"Chris Mullen is above; We are trying to figure out why he had a decrease in performance year after year. 27 points, 6 rebounds and 4 assists is comparable to Lebron James and this was early in Chris Mullens career." 
-"Tim Hardaway is below; he is a point guard that really did well in the assist category as a rookie with 8.7 per game."
-"George Karl was the coach from 1986-1988 and then Don Nelson came in with a more open coaching style. Nelson has the most wins of any coach in NBA history, with 1,335."
-"The teams performance increased with Don Nelson, Mich Richmond, and Tim Hardaway."
-"Chris may also took a step back sense he knew he had another elite scorer and an elite passer on the team."
-"This could be the reason why his numbers started to go down."
++ "Chris Mullen is above; We are trying to figure out why he had a decrease in performance year after year. 27 points, 6 rebounds and 4 assists is comparable to Lebron James and this was early in Chris Mullens career." 
++ "Tim Hardaway is below; he is a point guard that really did well in the assist category as a rookie with 8.7 per game."
++ "George Karl was the coach from 1986-1988 and then Don Nelson came in with a more open coaching style. Nelson has the most wins of any coach in NBA history, with 1,335."
++ "The teams performance increased with Don Nelson, Mich Richmond, and Tim Hardaway."
++ "Chris may also took a step back sense he knew he had another elite scorer and an elite passer on the team."
++ "This could be the reason why his numbers started to go down."
 
 ### Alright students, lets go down this rabbit role...
 I don't know much about basketball at all, but I am relatively logical and am very familiar with structuring data science projects, so lets turn some of these assumptions into actual data driven projects or more specifically one project.
 This student claims they would like to tell stories with data- makes sense given most people seem to want to do this now a days. The student provides a data set, so let's start with the first question from then student, 
 
-#### why did Chris Mullens performance descrease year over year?
+#### why did Chris Mullens performance decrease year over year?
 
 When we are thinking about performance what are we talking about? How are we defining performance and what does that mean? Is this performance relative to some baseline and if so what is that baseline?
 Or are we defining the performance of the player relative to themself? I'm not sure just yet but after exploring the data just giving it a once over here are a few fields that stick out to me as being important, when thinking about performance:
