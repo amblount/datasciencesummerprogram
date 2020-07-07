@@ -41,6 +41,15 @@ so there are many investors who do care about going back to read the letter and 
 
 Anyway, back to the mislabeled letter...
 
+** Full Stop **
+![alt text](https://github.com/amblount/datasciencesummerprogram/blob/master/shareholder%20letter.PNG)
+What is a shareholder letter anyhow? In the business world when does a shareholder letter come out and what time frame does it cover? I did a google search to figure it out and I found the [investopedia](https://www.investopedia.com/terms/s/shareholder-letter.asp) definition from the website useful. It seems to me like the shareholder report is supposed to summarize all of the learnings from the last fiscal year.
+
+> Q: ** How is this company defining a fiscal year **
+> Q: ** If this is a shareholder report from 2019, why are the COVID-19 updates in this report? ** I realize the pandemic has changed everything, but shouldn't all of the updates for 2020 be in the 2020 shareholder letter that comes out in 2021? If something changed shouldn't they create a new type of report that would take into account these changes? It would seem like a good idea to have a mandatory inevstor meeting to review all of the new changes to the supply chain because of COVID-19. Given these changes will likely affect the supply chain for the forseable future, wouldn't there need to be new processes put into place to start to detail these important company changes to shareholders?
+
+These are just some of the questions I have because if there were a model in production analyzing shareholder meetings by year and the 2019 year in review report included major company shifts that occured in 2020, this would overshadow the company strategy and growth that happened in 2019, which is also important to think about when recommending a stratefy for 2020 or even 2021. COVID changes everything I guess even Models. 
+
 - Demand for essential products has spiked
 - There was little warning of the spike so there was not enough time to plan
 
