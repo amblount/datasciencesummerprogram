@@ -90,5 +90,49 @@ There is so much information to pull out of the shareholder letter that does see
 
 Something to think about, lads. Lots to think about. This seems like a great place to take one of those areas and really dive in.
 
+### The data science life cycle
 ![alt text](http://sudeep.co/images/post_images/2018-02-09-Understanding-the-Data-Science-Lifecycle/chart.png)
+
+Take a good look at this image and what the different phases of the cycle mean. Lets walk through them here breifly:
+
+1. Business Understanding
+Ask relevant questions and define objectives for the problem that needs to be solved. We took a deep dive into business understanding by exploring the shareholder report for 2019. This report describes what is valuable for the company and you can use this to guide your North Star goals. It is just as important to talk to your product manager or team lead to understand how your team fits in with these goals. Organizations are large and there are many moving pieces and you need to understand where you fit in. If you are working at Amazon for instance and you are working on supply chain management in Redmond WA during the time of COVID-19 everything has changed for you, but in ways that are different from the change for most other places. Redmond, WA for example is the Head Quarters for Microsoft Corportaion and many of the companies employees live in that city. Much of the investment in the citys infrastructure comes from taxes or grants from the company and its employees. Redmond has a great public education system and great public utilities available for the citys inhabitants. It would be very easy to rollout delivery robots in a city like Redmond because unpaved roads are not a problem that the city faces. The high housing cost in the city and great infrastructure creates a city with very little poverty. It could be that there are many social workers in the city who offer lower skilled people with fewer resources relocation options that help them move into more affordable places. This is just one example of an exploration of one possible team project and how that team could create solutions to target the population they are serving. Data science is specific and it is contextual. Every model is not going to work for every population or every situation. One general dataset might not serve all of the needs of every niche hypothesis you set out to test. It is ok if you don't have the data you need up front. You can take the time to find the data that you need to serve your purpose.
+
+2. Data Mining
+Gather and scrape the data necessary for the project
+Once you have your project scope clearly defined you should take time to think about the data you need. Let's go back to our supply chain example because reading about Amazon and the new COVID-19 has peaked my interest.
+
+We are going to dive into the challenges that might be present for suppliers and the delivery network. I think it is important to note whether we are thinking about the developing world or the US specifically. Amazon operates globally and the challenges that the company is facing in America are very different than the challenges the company is facing in India and Sub-Saharan Africa. In the developing world many of the emerging middle class workers have been laid off due to businesses shutting down via COVID-19 and the shelter in place mandates. These businesses might not be able to open back up ever and the services these businesses did provide might be critical for the people in those geographic areas. 
+
+If we are focused on North America and suppliers here are a few things I might explore in further depth:
+- Many American consumers are brand aware meaning they do not purchase off brand
+- Most Amazon customers use Prime shipping considerations when making purchasing decisions
+- Product reviews are important when making purchase decisions 
+- Many users are informed shoppers, meaning they are familiar with a similar product before they purchase it and are shopping for a replacement or a new user experience
+- Mom and Pop shops in America have transitioned their retail operations online and most likely through an amazon storefront - I am unsure of what the business model looks like for store owners who are selling on amazon in terms of warehousing and distrbution. We could check out the day 1 blog to understand what this process looks like to make more clear recommendatios as to how to improve this
+- The suppliers who are offering products considered essential need to stock up becasue more customers are going purchase the products. There are not many manufacturing plants in the USA because the cost of labor is expensive but overseas the cost to operate a plant is lower. It is more challenging to move products around the world right now due to COVID-19, so even if the manufacturing plant was able to create more product, that does not mean that the products would get to American customers during the pandemic. Some international relations policies have prohibited or inhibited international trade during lock-down and because of the spike in the number of COVID-19 cases in the US some countries do not want to put their workers at risk to infection from American workers. There is a lot to unpack in this bullet point particularly but I think that at the heart of the supply chain conversations in question these are the issues companies like Amazon are facing. They did mention a research team working to improve some of these problems and I am sure that their research blog might detail some of them.
+
+We could go through the same thought process for the delivery network but I will save that for another post.
+
+Amazon created AWS as a layer of infrastructure to manage data internally across teams at Amazon so it is clear that amazon has a lot of data that you could pull from. If I owned a project like this I would spend a week reviewing all of my assumptions about the global supply chain and read as much internal documentaion as I could about what those teams are working on and where that data is stored. Unlike a start-up project where you are responsible for collecting data at a large organization you are responsible to clustering the data relevant to your project. Data engineers are your friends!
+
+> "DATA ENGINEERS ARE YOUR FRIENDS!" - Alivia Quote #2017
+Data engineers are responsible for creating pipelines and warehouses from the data the company collects and set up new collections mechanisms when data scientists or product managers explain that it is needed for some reason. Data engineers can describe to you ways to aggregate data that might be useful for you and specific to you. Searching for data in the enterprise is like searching for a needle in a haystack. I have definitely given a technical talk about this topic. [Data @ Intel]() #hotmess
+
+3. Data Cleaning
+Fix the inconsistencies within the data and handle the missing values
+
+
+4. Data Exploration
+Form hypothesis about your defined problem by visually analyzing the data
+
+5. Feature Engineering
+Select important features and construct more meaningful ones using the raw data you have
+
+6. Predictive Modeling
+Train machine leaning models, evaluate their performance and use them to make predictions
+
+7. Data Visualization
+Communicate the findings with key stakeholders using plots and interactive visualizations
+
 
