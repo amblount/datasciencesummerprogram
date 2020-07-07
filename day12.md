@@ -46,12 +46,49 @@ Anyway, back to the mislabeled letter...
 What is a shareholder letter anyhow? In the business world when does a shareholder letter come out and what time frame does it cover? I did a google search to figure it out and I found the [investopedia](https://www.investopedia.com/terms/s/shareholder-letter.asp) definition from the website useful. It seems to me like the shareholder report is supposed to summarize all of the learnings from the last fiscal year.
 
 > Q: ** How is this company defining a fiscal year **
-> Q: ** If this is a shareholder report from 2019, why are the COVID-19 updates in this report? ** I realize the pandemic has changed everything, but shouldn't all of the updates for 2020 be in the 2020 shareholder letter that comes out in 2021? If something changed shouldn't they create a new type of report that would take into account these changes? It would seem like a good idea to have a mandatory inevstor meeting to review all of the new changes to the supply chain because of COVID-19. Given these changes will likely affect the supply chain for the forseable future, wouldn't there need to be new processes put into place to start to detail these important company changes to shareholders?
+> Q: ** If this is a shareholder report from 2019, why are the COVID-19 updates in this report? ** 
+I realize the pandemic has changed everything, but shouldn't all of the updates for 2020 be in the 2020 shareholder letter that comes out in 2021? If something changed shouldn't they create a new type of report that would take into account these changes? It would seem like a good idea to have a mandatory inevstor meeting to review all of the new changes to the supply chain because of COVID-19. Given these changes will likely affect the supply chain for the forseable future, wouldn't there need to be new processes put into place to start to detail these important company changes to shareholders?
 
 These are just some of the questions I have because if there were a model in production analyzing shareholder meetings by year and the 2019 year in review report included major company shifts that occured in 2020, this would overshadow the company strategy and growth that happened in 2019, which is also important to think about when recommending a stratefy for 2020 or even 2021. COVID changes everything I guess even Models. 
 
-- Demand for essential products has spiked
+- Demand for essential products has spiked (What are essential products?)
 - There was little warning of the spike so there was not enough time to plan
+- Major challenges for suppliers and delivery network
+- Stocking and delivery of critical products
+- Whole Foods Markets remain open
+- Closed parts of business that don't sell essential products
+- Health and well being of employees
+- 150 process changes in operations network
+- Daily audits of measures put into place
+- Social distancing measures in place
+- Information sharing to bulleton boards
+- Adjusted for hiring processes to account for social distancing
+- Moved Program Managers and Engineers to testing measures
+- Support for employees
+- Paying associates overtime
+- Wage increases for overtime will cost over $500 million dollars through the month of April
+- Amazon relief fund - independent delivery drivers
+- 100,000 new jobs across fulfillment and delivery network + 75,000 workers to help with customer support
+- Some people rely on amazon to meet their critical needs (How do you determine who those people are?)
+- Amazon is looking to protect customers who could potentially be exploited by bad actors during a time of crisis
+- Removed over half a million offers due to price gouging and suspended accounts for violating fair pricing policies
+- Academic institutions are transitioning to online learning and using AWS to help with this
+- AWS public data lake to analyze COVID related information
+- Last year co-founded the climate pledge, which commits Amazon to meet the goals of the Paris agreement 10 years early and be net zero carbon by 2040
+- Amazon has extensive physical infrastructure to deliver more than 10 billion items per year
+- Purchased 100,000 electric vehicle vans and are looking companies who can build new technologies that can help make the carbon neutral 
+idea a reality
+- Frustration free packaging program which encourages distributors to create 100% recyclable packaging
+
+> Amazon’s sustainability scientists have spent more than three years developing the models, tools, and metrics to measure our carbon footprint. Their detailed analysis has found that shopping online consistently generates less carbon than driving to a store, since a single delivery van trip can take approximately 100 roundtrip car journeys off the road on average. Our scientists developed a model to compare the carbon intensity of ordering Whole Foods Market groceries online versus driving to your nearest Whole Foods Market store. The study found that, averaged across all basket sizes, online grocery deliveries generate 43% lower carbon emissions per item compared to shopping in stores. Smaller basket sizes generate even greater carbon savings.
+
+> Over the last decade, no company has created more jobs than Amazon. Amazon directly employs 840,000 workers worldwide, including over 590,000 in the U.S., 115,000 in Europe, and 95,000 in Asia. In total, Amazon directly and indirectly supports 2 million jobs in the U.S., including 680,000-plus jobs created by Amazon’s investments in areas like construction, logistics, and professional services, plus another 830,000 jobs created by small and medium-sized businesses selling on Amazon. Globally, we support nearly 4 million jobs. 
+
+- . That's why we’re spending $700 million to provide more than 100,000 Amazonians access to training programs, at their places of work, in high-demand fields such as healthcare, cloud computing, and machine learning
+
+There is so much information to pull out of the shareholder letter that does seem to be specific to changes the company is mkaing to deal with COVID-19. Each one of the bullet points listed above could turn into it's own data science project. Each one of these areas has a lot of unanswered questions and these questions need be explored to think about what data could be used to create meaningful progress towards any one of the company goals. 
+
+Something to think about, lads. Lots to think about. This seems like a great place to take one of those areas and really dive in.
 
 ![alt text](http://sudeep.co/images/post_images/2018-02-09-Understanding-the-Data-Science-Lifecycle/chart.png)
 
