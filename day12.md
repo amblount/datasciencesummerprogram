@@ -120,19 +120,48 @@ Amazon created AWS as a layer of infrastructure to manage data internally across
 Data engineers are responsible for creating pipelines and warehouses from the data the company collects and set up new collections mechanisms when data scientists or product managers explain that it is needed for some reason. Data engineers can describe to you ways to aggregate data that might be useful for you and specific to you. Searching for data in the enterprise is like searching for a needle in a haystack. I have definitely given a technical talk about this topic. [Data @ Intel]() #hotmess
 
 3. Data Cleaning
-Fix the inconsistencies within the data and handle the missing values
 
+Fix the inconsistencies within the data and handle the missing values
+In a few rare cases you will come across a dataset that already has all of the data you need in the format that you need it in and you won't need to clean the data. This is definitely an edge case.
+
+Diirty Data
+![alt text](https://github.com/amblount/datasciencesummerprogram/blob/master/dirtyData.jpg)
+
+This is a perfect example of the problems that consistently face data scientists. Users on the platform that this data scientist is working with don't know how to spell PA, honestly I'm not sure how to spell if either without Googling it first. When you give users the option to enter data on their own they will give you results they think are useful not results that you find useful. This could turn into another post related to design and why it is critical to have a designer on the team think about the user flow and how a user should use the product. If you can create icons that lay out the functionality you want from a user this will really help in data collection. Unfortunately data scientists don't join design sprints for product teams and so they get dirty data way too late in the pipeline to change anything or make any useful produce recommendations. Because of this data scientists spend a LOT of time gathering data to get it into a format for clusering and modeling but these are after thoughts. On many data science teams deliverables are reliant on the data that is currently available and somewhat clean. There are major tradeoffs between the amount of time it would take to clean the data and the amount of time it might take to get the data into a model.I know this sounds vague at the moment, and I will certainly take a bit more time to explain this in more depth in a later blog post.
 
 4. Data Exploration
+
 Form hypothesis about your defined problem by visually analyzing the data
+This is know in the data world as EDA or exploratory data analysis. It is critical to get some baseline metrics about your population or your dataset. We all make assumptions about what our data looks like and the average or typical response from our data set but once we actually look into the data we might realize it doesn't even exist. This has actually happened to me, many times over!
+
+> Let's create a model to analyze the turnout for our live event, live events are the most important aspect of user engagement. - Program Manager @ Large Well Known Company
+
+Great, says Alivia the data scientist - let me put some time on your calendar to learn more about what it is about events that make them so important. After the meeting it becomes clear that when users take the time to travel to in person events it demonstrates a level of interest that goes beyond a like or a comment and demonstrates that this user may have a greater investment in the product or service. Sounds wonderful to me, let's go explore some of the event data so that we understand what is being collected after each event.
+
+-----
+
+Searches the group data warehouse for event data... nothing is found. Hmm, ok something is not right, lets go to the source and figure out what happened and where the data is. I send out a survey to all of the developer leads to learn how they are collecting attendence data, it becomes clear that they are not collecting attendence during events. They actually create events on the Facebook platform and people indicate that they plan to attend the event. This is not an accurate representation of how many people actually attend the event. We figure out as a group that one way around this problem would be for developer leads to print out the list of registered participants and check people in at the door. After the event they could upload that data into a shared portal. We concluded that this may be too much work on the part of the volunteer develope leads and using a different service like eventbrite might serve the users more effectively. SO... no event data that would be meaningful to capture who actually attended in person events existed. 
+
+This is just one real world example of why it is important to explore the data. 
 
 5. Feature Engineering
+
 Select important features and construct more meaningful ones using the raw data you have
 
+Once we have a few data sources that we have indicated could be meaningful, we need to contextualize how that data is meaningful and why. One of my students is working on an NBA player analytics project to measure performance over an entire career and the NBA made a lot of their data public to play around with. I don't know much about basketball and how to measure player performance so it was important for the student to explain to me how we could measure player performance and what those metrics really mean. After having this conversation the student started to explain a 50-90-40 metric that is a baseline for measuring shooting performance. Once we narrowed down on analyzing the performance of a shooter and using this baseline we were able to look for columns in our database that would contribute to that score. This is the premise of feature engineering, understanding what columns or features in your dataset are important and what they mean.
+
+If one column is measures the price of an item and we have an average price for that item, we know if the item is above that price it means that the item might be overpriced because of higher quality and if it lower than our standard price it could be made of cheaper material. Feature engineering is extremely important because generally you are never going to use all of the data in your dataset and once you decide what data fields are important you need to figure out what the important fields are you can make assumptions about what values in those fields mean. 
+
 6. Predictive Modeling
+
 Train machine leaning models, evaluate their performance and use them to make predictions
 
+Machine learning is just advanced statistics and running some algorithm on our data we can try to understand something about the data. General machine learning algorithms group data into clusters or if we have tabular data we might try to predict an actual data value. We have even more advanced techniques now with deep learning and all of the frameworks like PyTorch and Tensorflow that we can use to gather meaning from our data. With so many packages available at the moment it is not critical like it once was for us to fully understand the math behind these algorithms to implement them. At this point in time we only need to call functions and know a bit about matrix multiplication (linear algebra) to get a model up and running. It much more important at a high level to think about what questions you are trying to anser with your data. This is the most important part. There are so many different ways for you to explore your data. It is useful to understand that we are entering a time when Metalearning is taking off and algorithms are generating other algorithms. This is a really cool field of AI to understand because we might not need to start with doing all of the EDA initially we might be able to make a general assumption about the data and let an algorithm sort of determine what method it should use to pull meaning from the data. This sounds abstract I know, but I am going somewhere with this.
+
 7. Data Visualization
+
 Communicate the findings with key stakeholders using plots and interactive visualizations
+
+Visualizing our data is important to explain our results to other people. We can analyze our data sets and look at each cell and try to compare one cell to another but this is time consuming and doesn't indicate to other people less familiar with our dataset what it means. If we take the time to plat our data, we can understand the distribution of say transactions on certain days of the week or when some data from our data warehouse did not come in. These are all useful data visualizations we can use to convey meaning to people who are not data scientists and this is really important. This is actually the most important part. You might spend 3 months working on a project which pulls in data from multiple sources and runs fancy analytics on the data set, but the end results might only be one chart that indicates how users in the age group 23-26 spend money on chocolate ice cream. If you company needed to understand that metric because they are moving into a market where the young people in that age group are the largest demographic this metric could be really important. It could change the way that the company is thinking about investing in new flavors and the company might hault all spending on flavors that are not chocolate. This is jusy one example and it may seem one off but it could be really meaningful for some company. Data science can be useful everywhere, in every company. The devil really is in the details.
 
 
