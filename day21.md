@@ -33,3 +33,12 @@ the data scientists we spoke to recommended exploring:
 We haven't really gone into depth on these topics but lets see if we can query these topics to pull up a workshop - I searched for papers and then listed all of the filters and here is what I found:
 
 ![alt text](https://github.com/amblount/datasciencesummerprogram/blob/master/Topics.PNG)
+
+### Workshops and AI Researchers
+
+In the past most of the notable research in the field of AI was done in research groups at Universities throughout the US, but everything has changed. Technology companies are powering every aspect of modern day society and they have the money to fund big research problems and are invested in solving these problems because the solutions to these problems will increase the productivity of these companies. Universities don't have as much on the line so if they solve bis problems in AI they need to sell the solution to a large company anyhow to generate a profit. 
+
+The researchers who once worked in large universities to get their work done now work in the research arm of technology companies and they present their work at conferences like ICML. If you checkout the workshops for these conferences you will major researchers in each of the workshop areas present their greatest challenges and highlight the culmination of their work thus far. As I have been getting up to speed with Meta-learning and researchers in this space, I noticed many of the new techniques and algorithms being presented at the conferences build off of prior work. It is useful to understand the algorithms from prior work so that the improvements make sense. Currently this might sounds like a round-about way of getting to ** go read the prior research of the presenting researchers to understand their new methods ** but this is the point. 
+https://icml.cc/virtual/2020/workshops
+
+I attended the wokshop on [continual learning](https://sites.google.com/view/cl-icml/) and there were some presented who were new to me and I followed these researchers on twitter, this is a great idea if you want to get involved with conversations around how to use the techniques presented during the workshop or in the presented paper.
