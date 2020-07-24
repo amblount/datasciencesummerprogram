@@ -22,4 +22,9 @@ One of my new favorite researchers Emma Brunskil shared her findings with person
 20% of those students end up completing the course. Feel free to explore the [twitter thread](https://threadreaderapp.com/thread/1272705226512969728.html) explaning the results of the entire case study.
 
 ![alt text](https://github.com/amblount/datasciencesummerprogram/blob/master/EbrunskillTweet.PNG)
+
 [Scaling up behavioral science interventions in online learning](https://www.pnas.org/content/117/26/14900)
+
+I attended the International Conference on Learning Representations (ICLR) this year for the first time and during one of the paper presentations I asked the presenter if he recommended I read any papers that might be relevant to my work. I explained to him that I was working on building a better recommendation system to help students learn how to read and he recommended I check out Emma Brunskill's work. I explored her academic website and found a lot of interesting papers, but I did not have the time at that point to take a deep dive into the field. When I think back to where I was in terms of my project it was not well defined in general. There are many researchers working on creating intelligent learning systems and it doesn't make any sense to build totally from scratch. 
+
+Planning to come back to this **draft**
